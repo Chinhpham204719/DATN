@@ -1,0 +1,290 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  /* background-color: #558ee7; */
+  background-image: url('C:/Users/chinh/OneDrive/Desktop/DATN_final/DATN/Frontend_IOT/src/assets/login_background.jpg');
+  background-size: cover; /* Bảo phủ toàn bộ .container */
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  overflow: hidden;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+}
+.navigation .btnLogin-popup {
+  width: 130px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1em;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 40px;
+  transition: 0.5s; 
+}
+
+.navigation .btnLogin-popup:hover {
+  background: #fff;
+  color: #162938;
+}
+.navigation button {
+  background: none;
+  border: none;
+  font-size: 1.1em;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 40px;
+  cursor: pointer;
+  transition: color 0.5s;
+}
+
+.navigation button:hover {
+  color: #162938;
+}
+.logo {
+  white-space: nowrap;
+  font-size: 2em;
+  color: #fff;
+  user-select: none;
+  margin-right: 150px;
+  font-weight: bold;
+
+}
+.forms-container {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  /*border-color: #333333;*/
+}
+
+.signing-signup {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 75%;
+  width: 455px;
+  height: 65%;
+  background-color: #ffffff;
+  transition: 1s 0.7s ease-in-out;
+  display: grid;
+  grid-template-columns: 1fr;
+  z-index: 5;
+  border-radius: 15px;
+  border: 1px solid #9a9b9a;
+
+}
+.content{
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  color: #eeeded;
+  height: 65%;
+  width: 55%;
+  margin-top: 17%;
+  align-items: center;
+}
+#services{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+#home{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+
+  height: 100%;
+  width: 100%;
+}
+#contact{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+
+  height: 100%;
+  width: 100%;
+}
+#about{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+
+  height: 100%;
+  width: 100%;
+}
+.group{
+  display: flex;
+  height: 30%;
+  margin-top: 10px;
+  width: 100%;
+  
+
+}
+.list{
+  
+  text-align: left;
+  display: flex;
+  height: 100%;
+  width: 30%;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0rem 5rem;
+  transition: all 0.2s 0.7s;
+  overflow: hidden;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+
+form.sign-in-form {
+  z-index: 2;
+}
+
+.title {
+  font-size: 2.2rem;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  max-width: 380px;
+  width: 100%;
+  background-color: #eeeded;
+  margin: 10px 0;
+  height: 50px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 0 0.4rem;
+  position: relative;
+  border: 1px solid #b2b4b2;
+}
+
+.input-field i {
+  text-align: center;
+  line-height: 55px;
+  color: #acacac;
+  transition: 0.5s;
+  font-size: 1.1rem;
+}
+
+.input-field input {
+  background: none;
+  outline: none;
+  border: none;
+  line-height: 1;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.input-field input::placeholder {
+  color: #aaa;
+  font-weight: 500;
+}
+
+
+.btn {
+  width: 50%;
+  background-color: #1877F2;
+  border: none;
+  outline: none;
+  height: 40px;
+  border-radius: 7px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  margin: 20px 0;
+  cursor: pointer;
+  transition: 0.5s;
+  padding-top: 8px;
+}
+.btn_signup{
+  font-size: 17px;
+  width: 40%;
+  background-color: #42B72A;
+  border: none;
+  outline: none;
+  height: 48px;
+  border-radius: 7px;
+  color: #fff;
+  font-weight: 500;
+  margin: 10px 134px;
+  cursor: pointer;
+  transition: 0.5s;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.btn:hover {
+  background-color: #2223a6;
+}
+.btn_signup:hover {
+  background-color: #2e801c;
+}
+
+
+
+.container:before {
+  content: "";
+  position: absolute;
+  height: 2000px;
+  width: 46%;
+  left: 5%;
+  top: 8%;
+  /*right: 54%;*/
+  /*background-image: linear-gradient(-45deg, #222 0%, #222 100%);*/
+  background-size: contain ;
+
+}
+
+
+.btn.transparent {
+  margin: 0;
+  background: none;
+  border: 2px solid #fff;
+  width: 130px;
+  height: 41px;
+  font-weight: 600;
+  font-size: 0.8rem;
+
+}
+
+
+
+
+
+
