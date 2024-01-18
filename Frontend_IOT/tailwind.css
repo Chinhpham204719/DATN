@@ -1,0 +1,19 @@
+
+.dark {
+  --color-bg-container: #18191a;
+  --color-bg-form: #242526;
+  --color-text-label: rgb(255, 255, 255);
+  --color-bg-hover: rgb(255, 255, 255, 0.3);
+  --color-border-changebutton:rgb(255, 255, 255);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  html{
+      font-family: 'Montserrat', sans-serif;
+      background-color:#F8F8F8;
+  }
+}
+
