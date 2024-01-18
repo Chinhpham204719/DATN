@@ -1,0 +1,7 @@
+.avatar {
+}
+@media (min-width: 1024px) {
+  .avatar {
+    height: 44rem;
+  }
+}
