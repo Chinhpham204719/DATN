@@ -1,0 +1,8 @@
+.aqi-overview-device {
+  border-radius: 4px;
+  box-shadow: 0 2px 20px 0 rgb(0 0 0 / 8%);
+  margin-bottom: 16px;
+  text-align: start;
+  height: 800px;
+  width: 60rem;
+}
