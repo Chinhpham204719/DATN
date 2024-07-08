@@ -187,7 +187,7 @@ void loop() {
   serializeJson(doc, mqtt_message);
 
   publishMessage("esp8266_data", mqtt_message, true);
-    lcd.setCursor(0,0);
+  lcd.setCursor(0,0);
   lcd.print("Temperature "); 
   lcd.setCursor(0,1);
   lcd.print(t);
