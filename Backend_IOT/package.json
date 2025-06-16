@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/Chinhpham.204719/DATN#readme",
   "dependencies": {
-    "bcrypt": "^5.1.1",
+    "bcrypt": "^6.0.0",
     "bcryptjs": "^2.4.3",
     "dotenv": "^16.3.1",
     "express": "^4.17.1",
@@ -27,7 +27,7 @@
     "fs": "^0.0.1-security",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.9.0",
-    "mqtt": "^4.2.6",
+    "mqtt": "^5.3.5",
     "passport": "^0.5.0",
     "passport-google-oauth20": "^2.0.0",
     "passport-local": "^1.0.0",
